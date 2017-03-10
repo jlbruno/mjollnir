@@ -3,7 +3,7 @@ var ts = require('gulp-typescript');
 var merge = require('merge2');
 var server = require('gulp-server-livereload');
 var sourcemaps = require('gulp-sourcemaps');
-var uglify = require('gulp-uglifyjs');
+var uglify = require('gulp-uglify');
 
 var tsProject = ts.createProject({
     out: 'mjollnir.js'
